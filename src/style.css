@@ -24,6 +24,10 @@ h1 {
   font-size: 96px;
 }
 
+p {
+  font-weight: normal;
+}
+
 .hero {
   background: var(--secondary-color);
   padding: 160px 20px;
@@ -34,10 +38,11 @@ h1 {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
+  color: #272142;
 }
 
 .hero h2 {
-  font-family: var(--default-font-family);
+  font-family: var(--heading-font-family);
   font-weight: normal;
   line-height: 2;
   font-size: 24px;
