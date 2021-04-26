@@ -149,6 +149,16 @@ footer .social-links a:hover {
   font-size: 14px;
 }
 
+.content a.email-me {
+  color: var(--branding-color);
+  text-decoration: none;
+}
+
+.content a.email-me:hover {
+  text-decoration: underline;
+  transition: all 100ms ease-in-out;
+}
+
 .content {
   margin: 30px;
 }
