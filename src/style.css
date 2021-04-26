@@ -55,6 +55,7 @@ nav a {
 nav a:hover,
 nav li:active {
   color: var(--branding-color);
+  font-weight: bold;
 }
 
 footer {
@@ -67,13 +68,25 @@ footer .contact-box {
   border-radius: 10px;
 }
 
+footer .contact-box p {
+  margin: 0;
+}
+
 footer .email-link {
   text-decoration: none;
   color: black;
   font-size: 24px;
 }
 
-footer .email-link:hover {
+footer .github-link,
+.contact-page-links a {
+  text-decoration: none;
+  color: black;
+}
+
+footer .email-link:hover,
+footer .github-link:hover,
+.contact-page-links a:hover {
   color: var(--branding-color);
 }
 
@@ -113,7 +126,7 @@ footer .social-links a:hover {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 50px 20px;
 }
 
 .content h1 {
@@ -171,6 +184,10 @@ footer .social-links a:hover {
     font-size: 44px;
   }
 
+  h4 {
+    font-size: 26px;
+  }
+
   .hero {
     padding: 80px 20px;
   }
@@ -191,5 +208,9 @@ footer .social-links a:hover {
 
   nav a {
     font-size: 14px;
+  }
+
+  footer .email-link {
+    font-size: 18px;
   }
 }

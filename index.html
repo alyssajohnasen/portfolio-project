@@ -29,35 +29,40 @@
   <div class="container">
     <nav class="d-flex justify-content-between">
       <a href="/">
-        <img src="/images/logo-round-white.png" class="logo d-none d-md-block" alt="" />
-        <img src="/images/logo-small.png" class="logo d-block d-md-none" alt="" />
+        <img src="/images/logo-round-white.png" class="logo d-none d-md-block" alt="Alyssa Johnasen Logo" />
+        <img src="/images/logo-small.png" class="logo d-block d-md-none" alt="Alyssa Johnasen Logo" />
       </a>  
       <ul class="mt-4">
         <li class="active"> 
-          <a href="/">Home</a>
+          <a href="/" title="Homepage">Home</a>
         </li>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/work.html">Work</a></li>
-        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/about.html" title="About Alyssa">About</a></li>
+        <li><a href="/work.html" title="Alyssa's Work">Work</a></li>
+        <li><a href="/contact.html" title="Contact Alyssa">Contact</a></li>
       </ul>
     </nav>
   </div>
   <div class="hero">
     <p>Hi, I'm</p>
     <h1>Alyssa Johnasen</h1>
-    <h2 class="mb-5">Web Developer from Hawaii</h2>
-    <a href="/about.html" class="btn btn-branding">About</a>
+    <h2 class="mb-5">Web Developer based in Hawaii</h2>
+    <div class="d-inline">
+      <a href="/about.html" class="btn btn-branding">About</a>
+      <a href="/contact.html" class="btn btn-branding">Contact</a>
+    </div>  
   </div>
-  <p class="text-center m-5">Work Showcase</p>
+  <h2 class="text-center m-5">Work Showcase</h2>
   <div class="container">
     <div class="row mb-5">
       <div class="col d-none d-lg-block">
-        <img src="/images/vanilla-js-weather-app.png" class="img-fluid" alt="">
+        <a href="https://serene-goldstine-96beb9.netlify.app/" target="_blank"><img src="/images/vanilla-js-weather-app.png"
+            class="img-fluid mb-3" alt="Vanilla JS Weather App" /></a>
       </div>
       <div class="col">
         <div class="project-description">
           <h2 class="mb-5">Vanilla JS Weather App</h2>
-          <p class="mb-5 text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet esse doloribus optio minus fuga totam, rerum deserunt id quasi possimus voluptatem exercitationem enim modi debitis necessitatibus soluta, vitae dolor.</p>
+          <p class="mb-5 text-muted">A Vanilla JavaScript weather application that utilizes the Open Weather Map API to display the real-time weather in a
+          user's current location, with the option to search for over 200,000 cities worldwide.</p>
           <a href="/work.html" class="btn btn-branding-outline">Learn More</a>
         </div>
       </div>
@@ -66,26 +71,25 @@
       <div class="col">
         <div class="project-description">
           <h2 class="mb-5">React Weather App</h2>
-          <p class="mb-5 text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet esse
-            doloribus optio minus fuga totam, rerum deserunt id quasi possimus voluptatem exercitationem enim modi debitis
-            necessitatibus soluta, vitae dolor.</p>
+          <p class="mb-5 text-muted">A React.js weather application that utilizes the Open Weather Map API to display the real-time weather in a user's
+          current location, with the option to search for over 200,000 cities worldwide.</p>
           <a href="/work.html" class="btn btn-branding-outline">Learn More</a>
         </div>
       </div>
       <div class="col d-none d-lg-block">
-        <img src="/images/react-weather-app.png" class="img-fluid" alt="">
+        <a href="https://gifted-varahamihira-9825aa.netlify.app/" target="_blank"><img src="/images/react-weather-app.png"
+            class="img-fluid" alt="React Weather App" /></a>
       </div>
     </div>
     <div class="row mb-5">
       <div class="col d-none d-lg-block">
-        <img src="/images/travel-webpage.png" class="img-fluid" alt="">
+        <a href="https://www.shecodes.io/workshops/shecodes-online-workshop-33-0/projects/110497" target="_blank"><img
+            src="/images/travel-webpage.png" class="img-fluid mb-3" alt="Travel Webpage" /></a>
       </div>
       <div class="col">
         <div class="project-description">
           <h2 class="mb-5">Travel Webpage</h2>
-          <p class="mb-5 text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet esse
-            doloribus optio minus fuga totam, rerum deserunt id quasi possimus voluptatem exercitationem enim modi debitis
-            necessitatibus soluta, vitae dolor.</p>
+          <p class="mb-5 text-muted">A landing page for a website dedicated to travel, coded in HTML5, CSS3, and JavaScript, also utilizing Bootstrap for styling.</p>
           <a href="/work.html" class="btn btn-branding-outline">Learn More</a>
         </div>
       </div>
@@ -94,21 +98,23 @@
   <footer>
     <div class="contact-box d-none d-lg-flex justify-content-between mb-5">
       <div>
-        <h4>Work Inquiry</h4>
-        <p class="text-muted">Let's work together</p>
+        <h4>Inquiries</h4>
+        <p class="text-muted">For all work & collaboration inquiries, please feel free to reach out!</p>
       </div>
       <div>
-        <a href="" class="btn btn-branding mt-2">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding" title="Contact Alyssa">Contact Me</a>
       </div>
     </div>
     <div class="d-flex justify-content-center mb-4">
-      <a href="mailto:alyssajohnasen@gmail.com" class="email-link"><i class="far fa-envelope"></i> alyssajohnasen@gmail.com</a>
+      <a href="mailto:alyssajohnasen@gmail.com" class="email-link" title="Email Alyssa"><i class="far fa-envelope"></i> alyssajohnasen@gmail.com</a>
     </div>
     <div class="social-links d-flex justify-content-center">
-      <a href="https://www.linkedin.com/in/alyssa-johnasen/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-      <a href="https://twitter.com/alyssajohnasen" target="_blank"><i class="fab fa-twitter"></i></a>
-      <a href="https://github.com/alyssajohnasen" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://github.com/alyssajohnasen" target="_blank" title="GitHub Profile"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/alyssa-johnasen/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://twitter.com/alyssajohnasen" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
     </div>  
+    <p class="text-center mt-4">&#169; 2021 Alyssa Johnasen |
+      <a href="https://github.com/alyssajohnasen/portfolio-project" class="github-link" target="_blank"> Open-sourced on GitHub</a> </p>
   </footer>
 </body>
 </html>

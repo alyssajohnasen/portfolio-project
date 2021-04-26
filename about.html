@@ -23,6 +23,22 @@
     integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
 <body>
+  <div class="container">
+    <nav class="d-flex justify-content-between">
+      <a href="/">
+        <img src="/images/logo-round-white.png" class="logo d-none d-md-block" alt="Alyssa Johnasen Logo" />
+        <img src="/images/logo-small.png" class="logo d-block d-md-none" alt="Alyssa Johnasen Logo" />
+      </a>
+      <ul class="mt-4">
+        <li>
+          <a href="/" title="Homepage">Home</a>
+        </li>
+        <li class="active"><a href="/about.html" title="About Alyssa">About</a></li>
+        <li><a href="/work.html" title="Alyssa's Work">Work</a></li>
+        <li><a href="/contact.html" title="Contact Alyssa">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
   <div class="content-container container">
     <div class="row">
       <div class="col-lg-6">
@@ -38,5 +54,30 @@
       </div>
     </div>
   </div>
+  <footer>
+    <div class="contact-box d-none d-lg-flex justify-content-between mb-5">
+      <div>
+        <h4>Inquiries</h4>
+        <p class="text-muted">For all work & collaboration inquiries, please feel free to reach out!</p>
+      </div>
+      <div>
+        <a href="/contact.html" class="btn btn-branding" title="Contact Alyssa">Contact Me</a>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center mb-4">
+      <a href="mailto:alyssajohnasen@gmail.com" class="email-link" title="Email Alyssa"><i class="far fa-envelope"></i>
+        alyssajohnasen@gmail.com</a>
+    </div>
+    <div class="social-links d-flex justify-content-center">
+      <a href="https://github.com/alyssajohnasen" target="_blank" title="GitHub Profile"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/alyssa-johnasen/" target="_blank" title="LinkedIn"><i
+          class="fab fa-linkedin-in"></i></a>
+      <a href="https://twitter.com/alyssajohnasen" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+    </div>
+    <p class="text-center mt-4">&#169; 2021 Alyssa Johnasen |
+      <a href="https://github.com/alyssajohnasen/portfolio-project" class="github-link" target="_blank"> Open-sourced on
+        GitHub</a>
+    </p>
+  </footer>
 </body>
 </html>

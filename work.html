@@ -23,28 +23,84 @@
     integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
 <body>
+  <div class="container">
+    <nav class="d-flex justify-content-between">
+      <a href="/">
+        <img src="/images/logo-round-white.png" class="logo d-none d-md-block" alt="Alyssa Johnasen Logo" />
+        <img src="/images/logo-small.png" class="logo d-block d-md-none" alt="Alyssa Johnasen Logo" />
+      </a>
+      <ul class="mt-4">
+        <li>
+          <a href="/" title="Homepage">Home</a>
+        </li>
+        <li><a href="/about.html" title="About Alyssa">About</a></li>
+        <li class="active"><a href="/work.html" title="Alyssa's Work">Work</a></li>
+        <li><a href="/contact.html" title="Contact Alyssa">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
   <div class="content-container container">
     <div class="content">
-      <h1 class="mb-5">Take a look at what I've been working on</h1>
+      <h1 class="mb-5">Have a look at my recent work</h1>
       <div class="row">
         <div class="col-md-6 mb-5">
-          <img src="/images/vanilla-js-weather-app.png" class="img-fluid mb-3" alt="" />
+          <a href="https://serene-goldstine-96beb9.netlify.app/" target="_blank"><img src="/images/vanilla-js-weather-app.png" class="img-fluid mb-3" alt="Vanilla JS Weather App" /></a>
           <h3 class="text-center m-0">Vanilla JS Weather App</h3>
           <p class="text-center text-muted">Built with HTML, CSS, JavaScript</p>
+          <p class="text-center">This weather application was coded in HTML5, CSS3, JavaScript ES6, as well as utilizing Bootstrap for styling. The Open
+          Weather Map API was used to pull real-time weather data and 3 hour forecasts for any given city worldwide. A Geolocation
+          feature using the Open Weather Map API is also available. Users have the option to convert the units from Fahrenheit to
+          Celsius.</p>
+          <p class="text-center"><a href="https://serene-goldstine-96beb9.netlify.app/" class="btn btn-branding-outline mb-3" target="_blank">Launch Project</a></p>
         </div>
         <div class="col-md-6">
-          <img src="/images/react-weather-app.png" class="img-fluid" alt="" />
+          <a href="https://gifted-varahamihira-9825aa.netlify.app/" target="_blank"><img src="/images/react-weather-app.png" class="img-fluid" alt="React Weather App" /></a>
           <h3 class="text-center m-0">React JS Weather App</h3>
           <p class="text-center text-muted">Built with HTML, CSS, JavaScript, React</p>
+          <p class="text-center">This weather application was coded in React, utilizing Hooks, Components, and Props. Other languages used include HTML5,
+          CSS3, JavaScript ES6, and Bootstrap for styling. The Open Weather Map API was used to pull real-time weather data and 3
+          hour forecasts for any given city worldwide. When a user searches for a city, the app will return the local time of that
+          city. A Geolocation feature using the Open Weather Map API is also available. Users have the option to convert the units
+          from Fahrenheit to Celsius.</p>
+          <p class="text-center"><a href="https://gifted-varahamihira-9825aa.netlify.app/" class="btn btn-branding-outline mb-3" target="_blank">Launch Project</a></p>
         </div>
         <div class="col-md-6">
-          <img src="/images/travel-webpage.png" class="img-fluid" alt="" />
+          <a href="https://www.shecodes.io/workshops/shecodes-online-workshop-33-0/projects/110497" target="_blank"><img src="/images/travel-webpage.png" class="img-fluid mb-3" alt="Travel Webpage" /></a>
           <h3 class="text-center m-0">Travel Webpage</h3>
           <p class="text-center text-muted">Built with HTML, CSS, JavaScript</p>
+          <p class="text-center">This landing page for a website devoted to travel was the very first full project that I built using the basics of HTML5, CSS3, JavaScript, and Bootstrap.
+            The photographs featured on the landing page were taken by me in Morocco during the summer of 2019.
+          </p>
+          <p class="text-center"><a href="https://www.shecodes.io/workshops/shecodes-online-workshop-33-0/projects/110497" class="btn btn-branding-outline mb-3"
+            target="_blank">Launch Project</a></p>
         </div>
       </div>
     </div>
   </div>
-  
+  <footer>
+    <div class="contact-box d-none d-lg-flex justify-content-between mb-5">
+      <div>
+        <h4>Inquiries</h4>
+        <p class="text-muted">For all work & collaboration inquiries, please feel free to reach out!</p>
+      </div>
+      <div>
+        <a href="/contact.html" class="btn btn-branding" title="Contact Alyssa">Contact Me</a>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center mb-4">
+      <a href="mailto:alyssajohnasen@gmail.com" class="email-link" title="Email Alyssa"><i class="far fa-envelope"></i>
+        alyssajohnasen@gmail.com</a>
+    </div>
+    <div class="social-links d-flex justify-content-center">
+      <a href="https://github.com/alyssajohnasen" target="_blank" title="GitHub Profile"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/alyssa-johnasen/" target="_blank" title="LinkedIn"><i
+          class="fab fa-linkedin-in"></i></a>
+      <a href="https://twitter.com/alyssajohnasen" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+    </div>
+    <p class="text-center mt-4">&#169; 2021 Alyssa Johnasen |
+      <a href="https://github.com/alyssajohnasen/portfolio-project" class="github-link" target="_blank"> Open-sourced on
+        GitHub</a>
+    </p>
+  </footer>
 </body>
 </html>
