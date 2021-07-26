@@ -1,7 +1,7 @@
 :root {
-  --branding-color: #642714;
-  --secondary-color: #f5f3ef;
-  --heading-font-family: "Bai Jamjuree", sans-serif;
+  --branding-color: #bac5c9;
+  --secondary-color: #f7f5ed;
+  --heading-font-family: "Inter", sans-serif;
   --default-font-family: "Poppins", sans-serif;
 }
 
@@ -17,11 +17,13 @@ h5,
 h6 {
   color: black;
   font-family: var(--heading-font-family);
-  font-weight: bold;
+  font-weight: 400;
 }
 
 h1 {
   font-size: 96px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 p {
@@ -48,6 +50,7 @@ nav li {
 
 nav a {
   text-decoration: none;
+  text-transform: uppercase;
   color: #272142;
   transition: all 100ms ease-in-out;
 }
@@ -112,10 +115,14 @@ footer .social-links a:hover {
 }
 
 .hero h2 {
-  font-family: var(--heading-font-family);
+  font-family: var(--default-font-family);
   font-weight: normal;
   line-height: 2;
   font-size: 24px;
+}
+
+.projects h2 {
+  color: var(--branding-color);
 }
 
 .content-container {
@@ -133,9 +140,10 @@ footer .social-links a:hover {
 }
 
 .content h3 {
+  color: var(--branding-color);
+  font-family: var(--default-font-family);
   font-size: 24px;
   line-height: 1.5;
-  font-family: var(--default-font-family);
 }
 
 .content p {
@@ -160,17 +168,19 @@ footer .social-links a:hover {
   background: var(--branding-color);
   border-radius: 4px;
   color: white;
-  font-size: 18px;
-  padding: 15px 30px;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 10px 20px;
 }
 
 .btn-branding-outline {
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 27px;
-  padding: 15px 30px;
+  text-transform: uppercase;
+  padding: 10px 20px;
 }
 
 .project-description {
@@ -184,7 +194,7 @@ footer .social-links a:hover {
   }
 
   h2 {
-    font-size: 44px;
+    font-size: 34px;
   }
 
   h4 {
@@ -210,7 +220,7 @@ footer .social-links a:hover {
   }
 
   nav a {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   footer .email-link {
