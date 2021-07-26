@@ -111,13 +111,6 @@ footer .social-links a:hover {
   text-align: center;
 }
 
-.hero p {
-  font-size: 36px;
-  font-weight: bold;
-  margin: 0;
-  color: #272142;
-}
-
 .hero h2 {
   font-family: var(--heading-font-family);
   font-weight: normal;
