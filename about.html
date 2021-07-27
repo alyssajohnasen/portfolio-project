@@ -31,19 +31,33 @@
 </head>
 <body>
   <div class="container">
-    <nav class="d-flex justify-content-between">
-      <a href="/">
-        <img src="/images/logo-round-white.png" class="logo d-none d-md-block" alt="Alyssa Johnasen Logo" />
-        <img src="/images/logo-small.png" class="logo d-block d-md-none" alt="Alyssa Johnasen Logo" />
-      </a>
-      <ul class="mt-4">
-        <li>
-          <a href="/" title="Homepage">Home</a>
-        </li>
-        <li class="active"><a href="/about.html" title="About Alyssa">About</a></li>
-        <li><a href="/work.html" title="Alyssa's Work">Work</a></li>
-        <li><a href="/contact.html" title="Contact Alyssa">Contact</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+          <img src="/images/logo-round-white.png" class="logo d-none d-md-block" alt="Alyssa Johnasen Logo" />
+          <img src="/images/logo-small.png" class="logo d-block d-md-none" alt="Alyssa Johnasen Logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/work.html" title="Alyssa's Work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/about.html" title="About Alyssa">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html" title="Contact Alyssa">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </div>
   <div class="content-container container">

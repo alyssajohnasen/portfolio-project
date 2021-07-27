@@ -37,7 +37,7 @@ p {
 
 nav ul {
   padding: 0;
-  margin: 0;
+  margin-left: 600px;
 }
 
 nav li {
@@ -56,8 +56,8 @@ nav a {
 }
 
 nav a:hover,
-nav li.active a {
-  color: var(--branding-color);
+nav li a.active {
+  color: var(--branding-color) !important;
   font-weight: bold;
 }
 
