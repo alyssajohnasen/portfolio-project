@@ -32,12 +32,11 @@ p {
 
 .logo {
   max-height: 100px;
-  margin: 20px;
+  margin: 5px;
 }
 
 nav ul {
-  padding: 0;
-  margin-left: 600px;
+  margin: 0 auto;
 }
 
 nav li {
@@ -173,6 +172,13 @@ footer .social-links a:hover {
   padding: 10px 20px;
 }
 
+.btn-branding:hover {
+  background: white;
+  border: 1px solid var(--branding-color);
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+
 .btn-branding-outline {
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
@@ -181,6 +187,13 @@ footer .social-links a:hover {
   line-height: 27px;
   text-transform: uppercase;
   padding: 10px 20px;
+}
+
+.btn-branding-outline:hover {
+  background: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  color: white;
+  transition: all 100ms ease-in-out;
 }
 
 .project-description {
