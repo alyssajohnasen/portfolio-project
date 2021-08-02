@@ -74,19 +74,12 @@ footer .contact-box p {
   margin: 0;
 }
 
-footer .email-link {
-  text-decoration: none;
-  color: black;
-  font-size: 24px;
-}
-
 footer .github-link,
 .contact-page-links a {
   text-decoration: none;
   color: black;
 }
 
-footer .email-link:hover,
 footer .github-link:hover,
 .contact-page-links a:hover {
   color: var(--branding-color);
@@ -239,7 +232,7 @@ footer .social-links a:hover {
   }
 
   .hero h2 {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .content {
