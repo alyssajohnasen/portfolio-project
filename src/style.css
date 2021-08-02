@@ -228,7 +228,14 @@ footer .social-links a:hover {
   }
 
   .hero {
+    background: var(--secondary-color);
+    background-image: url(/images/hero2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     padding: 80px 20px;
+    text-align: start;
   }
 
   .hero h2 {
