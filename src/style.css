@@ -215,12 +215,8 @@ footer .social-links a:hover {
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 40px;
+    font-size: 26px;
     line-height: 2;
-  }
-
-  h2 {
-    font-size: 34px;
   }
 
   h4 {
@@ -232,7 +228,7 @@ footer .social-links a:hover {
     background-image: url(/images/hero2.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     padding: 80px 20px;
     text-align: start;
@@ -242,9 +238,22 @@ footer .social-links a:hover {
     font-size: 14px;
   }
 
+  .projects h2 {
+    font-size: 26px;
+  }
+
+  .projects p {
+    font-size: 14px;
+  }
+
   .content {
     text-align: center;
     padding: 0;
+  }
+
+  .content h1 {
+    font-size: 34px;
+    line-height: 1.5;
   }
 
   .project-description {
