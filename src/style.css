@@ -60,6 +60,10 @@ nav li a.active {
   font-weight: bold;
 }
 
+nav ul a.active {
+  border-bottom: 2px solid var(--branding-color);
+}
+
 footer {
   margin: 60px 0;
 }
