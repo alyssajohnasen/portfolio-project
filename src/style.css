@@ -1,7 +1,7 @@
 :root {
   --branding-color: #bac5c9;
   --secondary-color: #f7f5ed;
-  --heading-font-family: "Inter", sans-serif;
+  --heading-font-family: "Lato", sans-serif;
   --default-font-family: "Poppins", sans-serif;
 }
 
@@ -17,12 +17,12 @@ h5,
 h6 {
   color: black;
   font-family: var(--heading-font-family);
-  font-weight: 400;
+  font-weight: 300;
 }
 
 h1 {
   font-size: 70px;
-  font-weight: 400;
+  font-weight: 300;
   text-transform: uppercase;
 }
 
@@ -165,6 +165,15 @@ footer .social-links a:hover {
   margin: 30px;
 }
 
+.say-hello-banner {
+  background-image: url(/images/say-hello.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 50px 50px;
+}
+
 .btn-hero {
   border: 1px solid #000;
   border-radius: 4px;
@@ -242,6 +251,21 @@ footer .social-links a:hover {
     font-size: 14px;
   }
 
+  .btn-hero {
+    border: 1px solid #000;
+    border-radius: 4px;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+  }
+
+  .btn-hero:hover {
+    background: var(--branding-color);
+    border: 1px solid var(--branding-color);
+    color: #fff;
+    transition: all 100ms ease-in-out;
+  }
+
   .projects h2 {
     font-size: 26px;
   }
@@ -273,7 +297,7 @@ footer .social-links a:hover {
     font-size: 12px;
   }
 
-  footer .email-link {
-    font-size: 18px;
+  footer p {
+    font-size: 12px;
   }
 }
